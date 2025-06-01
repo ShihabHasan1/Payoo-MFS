@@ -24,12 +24,12 @@
               <div class="divider"></div>
               <div class="flex justify-center gap-2">
                 <!-- User Action Button -->
-                <button class="btn btn-lg">ADD MONEY</button>
-                <button class="btn btn-lg">CASH OUT</button>
+                <button id="click-add-money-btn" class="btn btn-lg">ADD MONEY</button>
+                <button id="click-cash-out-btn" class="btn btn-lg">CASH OUT</button>
               </div>
               <div class="divider"></div>
               <!-- Add money Start -->
-              <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl hidden">
+              <div id="add-money-btn-show" class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl ">
                 <div class="card-body">
                   <fieldset class="fieldset">
                     <label class="label">Amount</label>
@@ -43,7 +43,7 @@
               <!-- Add money end -->
 
               <!-- cash out start -->
-               <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+               <div id="cash-out-btn-show" class="hidden card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
                 <div class="card-body">
                   <fieldset class="fieldset">
                     <label class="label">Amount</label>
@@ -60,5 +60,6 @@
     </main>
     <script src="js/home.js"></script>
     <script src="js/cashOut.js"></script>
+    <script src="js/future.js"></script>
 </body>
 </html>
